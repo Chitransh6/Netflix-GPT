@@ -39,7 +39,7 @@ return () => onAuthStateChanged();
 
   return (
     <>
-    <div className = "flex justify-between absolute w-screen h-25 px-8 py-2 bg-linear-to-b from-black items-center">
+    <div className = "flex justify-between absolute w-full h-25 px-8 py-2 bg-linear-to-b from-black items-center z-10">
         <img className = "w-44"src = {LOGO} alt = "logo"/>
         
        {user ? (

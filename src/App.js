@@ -5,7 +5,9 @@ const App = () => {
     return (
         <>
         <Provider store = {Store}>
+        
        <Body/>
+       
         </Provider>
 
       </>

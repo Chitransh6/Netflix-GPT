@@ -6,12 +6,12 @@ const FirstContainer = () => {
     const data = useSelector(state => state.movies?.nowPlayingMovies)
  
  if(!data) return;
- console.log(data[0]);
+
 
 
 
   return (
-    <div>
+    <div className = "mb-[-40]">
          <TittleContainer title = {data[0].original_title
 } overview = {data[0].overview} />
 
